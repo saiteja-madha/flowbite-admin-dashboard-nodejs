@@ -8,7 +8,10 @@ const app = express();
 app.use(express.static(path.join(__dirname, "/static")));
 
 // Set Templating Engine
-app.use(expressLayouts).set("view engine", "ejs").set("views", path.join(__dirname, "/content"));
+app
+  .use(expressLayouts)
+  .set("view engine", "ejs")
+  .set("views", path.join(__dirname, "/content"));
 
 app.get("/", (req, res) => {
   res.render("index", {
@@ -142,6 +145,6 @@ app.get("/playground/stacked", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log("Server running on port 3000");
 });
