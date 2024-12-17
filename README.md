@@ -3,12 +3,12 @@
 This is a fork of the original [Flowbite Admin Dashboard](https://github.com/themesberg/flowbite-admin-dashboard) repository. This fork is used to create a NodeJS version of the dashboard using [Express](https://expressjs.com/) and [EJS](https://ejs.co/) as the templating engine.
 
 
-# [Flowbite Admin Dashboard](https://flowbite-admin-dashboard.vercel.app) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fflowbite-admin-dashboard&text=Check%20out%20this%20open-source%20admin%20dashboard%20built%20with%20Flowbite%20and%20Tailwind%20CSS)
+# [Flowbite Admin Dashboard](https://flowbite-admin-dashboard.hostz.me) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fflowbite-admin-dashboard&text=Check%20out%20this%20open-source%20admin%20dashboard%20built%20with%20Flowbite%20and%20Tailwind%20CSS)
 
 
-[![Flowbite Admin Dashboard Live Preview](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/flowbite-admin-dashboard-preview.png)](https://flowbite-admin-dashboard.vercel.app/)
+[![Flowbite Admin Dashboard Live Preview](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/flowbite-admin-dashboard-preview.png)](https://flowbite-admin-dashboard.hostz.me/)
 
-This project is a free and open-source UI admin dashboard template built with the components from [Flowbite](https://github.com/saiteja-madha/flowbite-admin-dashboard-nodejs) and based on the utility-first [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) framework featuring charts, tables, widgets, CRUD layouts, modals, drawers, and more.
+This project is a free and open-source UI admin dashboard template built with the components from [Flowbite](https://flowbite.com/) and based on the utility-first [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) framework featuring charts, tables, widgets, CRUD layouts, modals, drawers, and more.
 
 This admin dashboard can quickly help you get started building an application for your project using the newest UI/UX development technologies in the open-source area including Tailwind CSS and Flowbite.
 
@@ -86,28 +86,30 @@ This product is built using the following widely used technologies:
 | --- | --- | --- |
 | ![404 not found](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/404.jpg) | ![500 server error](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/500.jpg) | ![Playground](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/playground.jpg)
 
--   [Live Preview](https://flowbite-admin-dashboard.vercel.app/)
+-   [Live Preview](https://flowbite-admin-dashboard.hostz.me/)
 
 ## Quick start
 
 1. Clone this repository or download the ZIP file
-2. Make sure that you have Node.js and NPM installed
-3. Install the project dependencies from the `package.json` file:
+2. Make sure that you have Node.js and NPM/Yarn/PNPM installed
+3. Install the project dependencies from the `package.json` file and start the local development server by running:
 
+Using NPM:
 ```
 npm install
-```
-
-4. Create a local server on `localhost:3000` by running the following command:
-
-```
-npm run start
-```
-
-You can also start the project in development mode with HMR (Hot Module Replacement) enabled by running:
-
-```
 npm run dev
+```
+
+Using Yarn:
+```
+yarn install
+yarn dev
+```
+
+Using PNPM:
+```
+pnpm install
+pnpm dev
 ```
 
 Here's a list of compatible technologies and guides for Flowbite and Tailwind CSS:
@@ -169,17 +171,17 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Resources
 
-- Live preview: <https://flowbite-admin-dashboard.vercel.app/>
+- Live preview: <https://flowbite-admin-dashboard.hostz.me/>
 - Flowbite documentation: <https://flowbite.com/docs/getting-started/introduction/>
 - Tailwind CSS documentation: <https://tailwindcss.com/>
 - License Agreement: <https://flowbite.com/docs/getting-started/license/>
-- Issues: [Github Issues Page](https://github.com/themesberg/flowbite-admin-dashboard/issues)
+- Issues: [Github Issues Page](https://github.com/saiteja-madha/flowbite-admin-dashboard-nodejs/issues)
 
 ## Reporting Issues
 
 We use GitHub Issues as the official bug tracker for Flowbite Admin Dashboard. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of Flowbite Admin Dashboard. Check the CHANGELOG from your dashboard on the [GitHub releases page](https://github.com/themesberg/flowbite-admin-dashboard/releases).
+1. Make sure that you are using the latest version of Flowbite Admin Dashboard. Check the CHANGELOG from your dashboard on the [GitHub releases page](https://github.com/saiteja-madha/flowbite-admin-dashboard-nodejs/releases).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
@@ -190,7 +192,7 @@ If you have questions or need help integrating the product please [contact us](h
 ## Licensing
 
 - Copyright 2019-2023 Bergside Inc. (https://flowbite.com)
-- Open-source under the [MIT License](https://github.com/themesberg/flowbite-admin-dashboard/blob/main/LICENSE)
+- Open-source under the [MIT License](https://github.com/saiteja-madha/flowbite-admin-dashboard-nodejs/blob/main/LICENSE)
 
 ## Useful Links
 
@@ -203,4 +205,4 @@ If you have questions or need help integrating the product please [contact us](h
 
 - [Zoltán Szőgyényi](https://twitter.com/zoltanszogyenyi)
 - [Robert Tanislav](https://twitter.com/roberttanislav)
-- [Sai Teja Madha](https://saitejamadha.me)
+- [Sai Teja Madha](https://saitejamadha.dev)
